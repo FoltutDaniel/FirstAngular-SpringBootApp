@@ -30,6 +30,10 @@ public class Employee implements Serializable{ //you can transform Java class in
 	
 	@Column(nullable = false, updatable = false)
 	private String employeeCode;
+	
+	public Employee(){
+		
+	}
 
 	public Employee(String name, String email, String jobTitle, String phone, String imageUrl, String employeeCode) {
 		super();
